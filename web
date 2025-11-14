@@ -111,6 +111,10 @@
 
     <div class="card fade" style="animation-delay:0.6s;">
       <h2>🎬 Video tri ân</h2>
+<video controls style="width:100%; border-radius:16px;">
+  <source src="https://raw.githubusercontent.com/12a7chat123/tangco20-11/refs/heads/main/20-11.mp4" type="video/mp4">
+  Trình duyệt của bạn không hỗ trợ video.
+</video>
       <p>Một đoạn video nhỏ xin gửi đến cô thay cho lời cảm ơn chân thành nhất từ tập thể 12A7.</p>
       <video controls>
         <source src="yourvideo.mp4" type="video/mp4" />
