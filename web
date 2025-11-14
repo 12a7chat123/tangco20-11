@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tri ân Cô Thùy 20-11</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 50px;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(8px);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #b23250;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #5a4141;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.6);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      margin-bottom: 30px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+    }
+
+    h2 {
+      color: #b23250;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    video, iframe {
+      width: 100%;
+      border-radius: 18px;
+      margin-top: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      color: #444;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    /* Hiệu ứng fade-in */
+    .fade {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header class="fade" style="animation-delay:0.2s;">
+    <h1>Lời Tri Ân Gửi Cô Thùy</h1>
+    <p>Nhân ngày Nhà giáo Việt Nam 20-11, xin gửi những lời chúc tốt đẹp nhất đến cô Thùy kính yêu.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card fade" style="animation-delay:0.4s;">
+      <h2>✨ Lời cảm ơn ✨</h2>
+      <p>
+        Cảm ơn cô vì những bài học, những lời dạy bảo và cả những yêu thương âm thầm. 
+        Nhờ có cô mà chúng em có được hành trang vững vàng để bước vào cuộc sống. 
+        Công lao ấy chúng em luôn trân trọng và khắc ghi.
+      </p>
+    </div>
+
+    <div class="card fade" style="animation-delay:0.6s;">
+      <h2>🎬 Video tri ân</h2>
+      <p>Một đoạn video nhỏ xin gửi đến cô thay cho lời cảm ơn chân thành nhất từ tập thể 12A7.</p>
+      <video controls>
+        <source src="yourvideo.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="card fade" style="animation-delay:0.8s;">
+      <h2>🌼 Ý nghĩa ngày 20-11</h2>
+      <p>
+        Ngày Nhà giáo Việt Nam là dịp đặc biệt để mỗi học trò nhớ về người lái đò thầm lặng vẫn ngày đêm miệt mài bên trang giáo án. 
+        Đây không chỉ là ngày tôn vinh nghề giáo mà còn là dịp để tập thể lớp 12A7 bày tỏ lòng biết ơn sâu sắc đến cô Thùy người dẫn đường cho chúng em 3 năm cấp 3. Người giúp chúng em trưởng thành hơn trên con đường đời
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 — Trang tri ân cô Thùy | Tập thể 12A7 thiết kế với tất cả tấm lòng tặng cô 💖
+  </footer>
+</body>
+</html>
